@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rowdies:wght@300;400;700&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply text-black/90
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* ONE */
+/* .box{
+  @apply w-20 h-20  m-5
+}
+  TWO
+.middle{
+  @apply flex w-[100vw] h-[100vh] justify-center items-center text-5xl bg-[#20cbba]
+}
+.child{
+  @apply flex justify-center items-center text-3xl min-w-[100vw] h-[100vh] 
+} */
+
+
+
+/* THREE */
+
+/* .grandparent{
+  @apply  flex flex-col space-y-10 mx-auto my-auto min-w-[80vw]
+  }
+  .parent{
+    @apply overflow-hidden inline-block 
+  }
+  .child{
+    @apply translate-y-[150px] rotate-3 opacity-0 text-9xl font-medium font-grotesk
+  } */
+
+
+
+  /* THREE */
+
+/* 
+  .grandparent {
+    @apply flex flex-col space-y-10 mx-auto my-auto w-[80vw];
+  }
+  
+  .parent {
+    @apply overflow-hidden inline-block;
+  }
+  
+  .child {
+    @apply text-9xl font-medium font-grotesk;
+  }
+  
+  .letter {
+    @apply inline-block opacity-0 rotate-3 translate-y-10 ;
+  } */
+  
+  /* ------------------------------------- */
+  /* final */
+  /* .grandparent {
+    @apply flex flex-col space-y-10 mx-auto my-auto w-[80vw];
+  }
+  .parent {
+    @apply overflow-hidden inline-block;
+  }
+  .child {
+    @apply text-9xl font-medium font-grotesk;
+  }
+  .letter {
+    @apply inline-block  rotate-3 translate-y-full ;
+  } */
+  /* .letter {
+    @apply ;
+  } */
